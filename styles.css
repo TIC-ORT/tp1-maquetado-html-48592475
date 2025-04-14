@@ -148,3 +148,27 @@ body {
     background-color: #ff9980;
     
 }
+
+.cajas-colores {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.caja {
+    flex: 1;
+    height: 120px;
+}
+
+.caja-turquesa {
+    background-color: #8dd8d8;
+}
+
+.caja-oscura {
+    background-color: #5d6270;
+}
+
+.caja-clara {
+    background-color: #d9d9d9;
+}
