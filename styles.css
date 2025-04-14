@@ -172,3 +172,19 @@ body {
 .caja-clara {
     background-color: #d9d9d9;
 }
+
+.seccion-naranja {
+    width: 100%;
+    background-color: #ff9980;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.fila-cuadricula {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.fila-cuadricula:last-child {
+    margin-bottom: 0;
+}
