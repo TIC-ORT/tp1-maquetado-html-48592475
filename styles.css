@@ -58,3 +58,22 @@ body {
     background-color: #ffffff;
     margin: 0 10px;
 }
+
+.principal {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 0 15%;
+}
+
+.contenedor-principal {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.superior {
+    display: flex;
+    margin-bottom: 40px;
+}
+
