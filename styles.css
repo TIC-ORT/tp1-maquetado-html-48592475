@@ -1,31 +1,37 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
+
 .barra-superior {
-    display: flex;
     width: 100%;
-    height: 50px;
+    height: 40px;
+    background-color: #8dd8d8;
+    display: flex;
 }
 
-.nav-izquierda {
-    width: 10%;
+.barra-izquierda {
+    width: 5%;
+    height: 80%;
+    margin-top: 0.5%;
     background-color: #ff9980;
 }
 
-.nav-centro-izq {
-    width: 25%;
-    background-color: #f0f0f0;
+.barra-centro-izq {
+    width: 15%;
+    height: 80%;
+    margin-top: 0.5%;
+    background-color: #e6e6e6;
 }
-
-.nav-centro-der {
-    width: 40%;
-    background-color: #e0e0e0;
-}
-
-.nav-derecha {
-    width: 25%;
-    background-color: #8dd3d3;
+.barra-centro-der {
+    width: 15%;
+    height: 80%;
+    margin-top: 0.5%;
+    background-color: #dbd4d4;
 }
